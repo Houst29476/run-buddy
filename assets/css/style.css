@@ -5,12 +5,11 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* Header Background Styling */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -34,7 +33,9 @@ header {
   padding-bottom: 20px;
   padding-left: 25px;
 }
+/* end of Header Background Styling */
 
+/* Logo top - left */
 header h1 {
   font-weight: bold;
   font-size: 36px;
@@ -42,7 +43,9 @@ header h1 {
   margin: 0px;
   display: inline;
 }
+/* end of Logo top - left */
 
+/* Header Navigation */
 header a {
   text-decoration: none;
   color: #fce138;
@@ -62,6 +65,8 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* End of Header Navigation */
+/*  End of Header Styling */
 
 footer {
   background: #fce138;
